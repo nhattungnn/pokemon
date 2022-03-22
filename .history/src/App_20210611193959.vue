@@ -60,7 +60,7 @@ export default {
 
       this.settings.cardsContext = shuffled(shuffled(shuffled(cards)));
       this.settings.startedAt = new Date().getTime();
-console.log(this.settings.cardsContext);
+
       this.statusMatch = "match";
     },
 
